@@ -11,19 +11,13 @@ body {
   background: white;
   padding: 30px;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
 h1 {
   margin: 0 0 5px 0;
   color: #333;
-}
-
-.subtitle {
-  color: #888;
-  font-size: 14px;
-  margin: 0 0 20px 0;
 }
 
 .count-box {
@@ -47,11 +41,17 @@ h1 {
   color: white;
 }
 
-.decrease { background: #e74c3c; }
-.reset { background: #7f8c8d; }
-.increase { background: #27ae60; }
+.decrease {
+  background: #e74c3c;
+}
+.reset {
+  background: #7f8c8d;
+}
+.increase {
+  background: #27ae60;
+}
 
-.hint {
+.output {
   margin-top: 15px;
   color: #666;
   font-size: 14px;

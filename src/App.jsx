@@ -19,7 +19,6 @@ function App() {
   return (
     <div className="container">
       <h1>Counter App</h1>
-      <p className="subtitle">A simple counter using useState</p>
 
       <div
         className="count-box"
@@ -42,9 +41,9 @@ function App() {
         </button>
       </div>
 
-      {count === 0 && <p className="hint">Count is at zero</p>}
-      {count > 10 && <p className="hint">Getting high!</p>}
-      {count < -10 && <p className="hint">Getting low!</p>}
+      {count === 0 && <p className="output">Count is at zero</p>}
+      {count > 10 && <p className="output">Getting high!</p>}
+      {count < -10 && <p className="output">Getting low!</p>}
     </div>
   );
 }
